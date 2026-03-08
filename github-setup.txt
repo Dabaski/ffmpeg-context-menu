@@ -1,0 +1,19 @@
+GitHub Setup Instructions
+=========================
+
+1. Open a NEW terminal (PowerShell or CMD) to pick up the new gh CLI
+
+2. Run this command to log in:
+   gh auth login --web --git-protocol https
+
+3. Follow the prompts - it will open a browser for authentication
+
+4. Once logged in, run these commands to create the repo:
+
+   cd "C:\Users\Dabaski\Documents\Programming Projects\ffmpeg-context-menu"
+   git init
+   git add .
+   git commit -m "Initial commit: FFmpeg context menu converter"
+   gh repo create ffmpeg-context-menu --public --source=. --push
+
+That's it! Your repo will be live at: https://github.com/YOUR_USERNAME/ffmpeg-context-menu

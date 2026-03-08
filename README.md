@@ -1,3 +1,5 @@
+If you think it's useful give the repo a star!
+
 # FFmpeg Context Menu Converter
 
 Right-click Windows context menu integration for converting video and audio files with FFmpeg.
